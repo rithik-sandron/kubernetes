@@ -46,7 +46,7 @@ kubectl create -f configmap \
 kubectl create secret docker-registry regcred \
     --docker-server=ghcr.io \
     --docker-username=rithik-sandron \
-    --docker-password=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
+    --docker-password=<PAT>
 
 # Get
 kubectl get all -A 
